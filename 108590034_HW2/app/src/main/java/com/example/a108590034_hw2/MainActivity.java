@@ -13,14 +13,14 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     private int Count;
     private TextView ShowCount;
-    private TextView Zero;
+    private Button Zero;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ShowCount = (TextView) findViewById(R.id.Number_cnt);
-        Zero = (TextView) findViewById(R.id.button_zero);
+        Zero = (Button) findViewById(R.id.button_zero);
         Zero.setEnabled(false);
     }
 
