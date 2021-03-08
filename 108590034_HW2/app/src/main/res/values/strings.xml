@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">108590034_HW2</string>
+    <string name="Number_cnt">0</string>
+    <string name="button_cnt">count</string>
+    <string name="button_zero">zero</string>
+    <string name="button_toast">toast</string>
+</resources>
